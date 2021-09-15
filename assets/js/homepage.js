@@ -52,7 +52,7 @@ var displayRepos = function(repos, searchTerm) {
   }
 
   repoSearchTerm.textContent = searchTerm;
-
+  // 
   // loop over repos
   for (var i = 0; i < repos.length; i++) {
     // format repo name
